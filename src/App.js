@@ -2,6 +2,8 @@ import React from 'react';
 import Formulario from './components/Formulario';
 
 function App() {
+  console.log(process.env.React_App_Title);
+
   return (
   <div className="container">
     <div className="jumbotron">
